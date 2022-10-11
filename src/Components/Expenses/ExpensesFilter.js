@@ -7,6 +7,7 @@ const ExpensesFilter = (props) => {
   const dataChangeHandler = (event) =>{
     //console.log(event.target.value);
     props.inputValue(event.target.value);
+
   }
 
   return (
